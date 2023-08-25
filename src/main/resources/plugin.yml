@@ -2,3 +2,14 @@ name: TownyMenus_For_BE
 version: '${project.version}'
 main: xaviermc.top.townymenus_for_be.TownyMenus_For_BE
 api-version: '1.20'
+author: Cereal_Axis
+folia-supported: true
+depend:
+  - floodgate
+  - PlaceholderAPI
+
+commands:
+  begui:
+    description: 打开BE主菜单
+    usage: /<command>
+    aliases: [be]

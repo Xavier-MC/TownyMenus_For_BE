@@ -1,0 +1,4 @@
+name: TownyMenus_For_BE
+version: '${project.version}'
+main: xaviermc.top.townymenus_for_be.TownyMenus_For_BE
+api-version: '1.20'

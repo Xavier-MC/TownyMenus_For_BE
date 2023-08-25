@@ -1,5 +1,5 @@
 # TownyMenus_For_BE
- An official non affiliated plugin of Towny Advanced.
+ An unofficial  plugin of Towny Advanced.
 
 ## WANGNING:
 * This plugin is still in development status. If there are any bugs, please point them out.

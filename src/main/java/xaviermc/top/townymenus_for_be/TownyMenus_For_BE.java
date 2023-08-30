@@ -20,11 +20,11 @@ public final class TownyMenus_For_BE extends JavaPlugin {
 
     private void loadCommands() {
         PluginCommand begui = getCommand("begui");
-        if (begui == null){
+        if (begui == null) {
             getLogger().severe("插件加载命令时发生错误，你是否加载了完整的插件？");
             getServer().getPluginManager().disablePlugin(this);
             return;
-        } else{
+        } else {
             getLogger().info(ChatColor.GREEN + "命令功能加载成功");
         }
         begui.setExecutor(this);
@@ -32,7 +32,7 @@ public final class TownyMenus_For_BE extends JavaPlugin {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (command.equals(getCommand("begui"))){
+        if (command.equals(getCommand("begui"))) {
             if (sender instanceof Player) {
                 MainForm.sendMainForm((Player) sender);
             } else {
